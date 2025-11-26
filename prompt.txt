@@ -1,0 +1,28 @@
+Extract the following information from this CV/Resume and return it as JSON:
+{
+    "full_name": "Person's full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "location": "City, Country",
+    "professional_summary": "Brief professional summary",
+    "skills": ["skill1", "skill2", "skill3"],
+    "experience": [
+        {
+            "job_title": "Title",
+            "company": "Company name",
+            "duration": "Start date - End date",
+            "responsibilities": ["responsibility1", "responsibility2"]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Degree type",
+            "institution": "School/University name",
+            "graduation_year": "Year",
+            "field": "Field of study"
+        }
+    ],
+    "certifications": ["cert1", "cert2"],
+    "languages": ["language1", "language2"]
+}
+Return ONLY valid JSON, no markdown formatting or additional text.

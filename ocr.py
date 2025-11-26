@@ -8,15 +8,24 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class CVExtractor:
-    def __init__(self, input_folder="cv_inp", output_folder="cv_out"):
+    def __init__(self, input_folder="cv_inp", output_folder="cv_out", prompt_file="prompt.txt"):
         self.input_folder = input_folder
         self.output_folder = output_folder
+        self.prompt_file = prompt_file
         self.api_key = os.getenv("GEMINI_API_KEY")
         self.client = genai.Client(api_key=self.api_key)
         
         # Create folders if they don't exist
         os.makedirs(self.input_folder, exist_ok=True)
         os.makedirs(self.output_folder, exist_ok=True)
+    
+    def load_prompt(self) -> str:
+        """Load prompt from external text file"""
+        if not os.path.exists(self.prompt_file):
+            raise FileNotFoundError(f"Prompt file not found: {self.prompt_file}")
+        
+        with open(self.prompt_file, "r", encoding="utf-8") as f:
+            return f.read().strip()
     
     def get_mime_type(self, file_path: str) -> str:
         """Determine MIME type based on file extension"""
@@ -42,35 +51,8 @@ class CVExtractor:
         with open(file_path, "rb") as f:
             file_data = base64.standard_b64encode(f.read()).decode("utf-8")
         
-        # Create the prompt for CV extraction
-        prompt = """Extract the following information from this CV/Resume and return it as JSON:
-        {
-            "full_name": "Person's full name",
-            "email": "Email address",
-            "phone": "Phone number",
-            "location": "City, Country",
-            "professional_summary": "Brief professional summary",
-            "skills": ["skill1", "skill2", "skill3"],
-            "experience": [
-                {
-                    "job_title": "Title",
-                    "company": "Company name",
-                    "duration": "Start date - End date",
-                    "responsibilities": ["responsibility1", "responsibility2"]
-                }
-            ],
-            "education": [
-                {
-                    "degree": "Degree type",
-                    "institution": "School/University name",
-                    "graduation_year": "Year",
-                    "field": "Field of study"
-                }
-            ],
-            "certifications": ["cert1", "cert2"],
-            "languages": ["language1", "language2"]
-        }
-        Return ONLY valid JSON, no markdown formatting or additional text."""
+        # Load prompt from file
+        prompt = self.load_prompt()
         
         # Call Gemini API with proper format
         response = self.client.models.generate_content(

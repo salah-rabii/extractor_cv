@@ -1,0 +1,95 @@
+{
+  "full_name": "Mohamed Amine EL MOUSSAOUI",
+  "email": "maelmoussaoui1@gmail.com",
+  "phone": "+212 777 901 098",
+  "location": "Rabat - Casablanca",
+  "professional_summary": "Data & Business Analyst / Analytics Engineer, spécialisé dans la transformation de données en insights actionnables. Solide expérience en risque crédit, santé et produits digitaux. Expertise en analytics (SQL, Power BI) et en pipelines/ML (Python, Scala, AWS). Capacité à travailler avec les équipes métier pour définir les bons KPIs et guider la décision.",
+  "skills": [
+    "SQL",
+    "Power BI",
+    "Python",
+    "Scala",
+    "AWS",
+    "NLP",
+    "MLOps",
+    "Data storytelling",
+    "Streamlit",
+    "Docker",
+    "Kafka",
+    "RabbitMQ"
+  ],
+  "experience": [
+    {
+      "job_title": "Data, Cloud & Architecture",
+      "company": "OCTO TECHNOLOGY (PART OF ACCENTURE)",
+      "duration": "2025",
+      "responsibilities": [
+        "Définition de segments utilisateurs et KPIs pour personnaliser les recommandations.",
+        "Analyse de performance du moteur et amélioration mesurable (+18%).",
+        "Mise en place de pipelines de données pour l'entraînement et le suivi des modèles.",
+        "Collaboration avec les équipes produit pour aligner les recommandations sur les besoins métier.",
+        "Contribution à l'architecture du système (Scala, RabbitMQ, PostgreSQL, AWS)."
+      ]
+    },
+    {
+      "job_title": "Stagiaire Data Scientist",
+      "company": "FY COMPUTING (ZIWIG)",
+      "duration": "2024",
+      "responsibilities": [
+        "Analyses exploratoires et préparation des données génomiques et cliniques.",
+        "Développement et optimisation de modèles ML pour la détection de pathologies (+20%).",
+        "Automatisation du pipeline d'entraînement via workflows MLOps (AWS, Docker).",
+        "Production d'indicateurs cliniques clairs pour les équipes médicales (taux de détection, faux positifs)."
+      ]
+    },
+    {
+      "job_title": "Stagiaire Data Scientist & Risque",
+      "company": "SOFAC Crédit & Leasing",
+      "duration": "2023",
+      "responsibilities": [
+        "Tableaux de bord risque (SQL, Power BI) réduisant de 40% les délais d'analyse.",
+        "Modèles de détection de fraude (+15% précision, -10% faux positifs).",
+        "Segmentation de 10 000 clients pour identifier 5 profils de risque et guider la décision."
+      ]
+    },
+    {
+      "job_title": "Strategy Consulting Job Simulation",
+      "company": "BCG",
+      "duration": "2025",
+      "responsibilities": [
+        "Analyse de marché et recherche documentaire pour cadrer un secteur.",
+        "Conception d'enquêtes consommateurs et interprétation des résultats.",
+        "Modélisation financière et analyse de données pour évaluer la viabilité de scénarios.",
+        "Synthèse d'insights et formulation de recommandations adaptées à un comité décisionnel.",
+        "Structuration d'un raisonnement stratégique clair pour prioriser les options et guider la prise de décision.",
+        "Approche centrée sur la clarté, la structure et l'impact business."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master en Sciences des Données",
+      "institution": "Université Paris Cité",
+      "graduation_year": "2025",
+      "field": "Analytics avancée, ML appliqué, NLP, IA générative, Big Data, MLOps, séries temporelles & segmentation."
+    },
+    {
+      "degree": "Ingénieur d'État",
+      "institution": "Institut National de Statistique et d'Economie Appliquée",
+      "graduation_year": "2024",
+      "field": null
+    },
+    {
+      "degree": null,
+      "institution": "Classes Préparatoires aux Grandes Écoles en Physique et Sciences de l'Ingénieur",
+      "graduation_year": "2021",
+      "field": null
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Français",
+    "Anglais",
+    "Espagnol"
+  ]
+}
