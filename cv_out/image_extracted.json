@@ -1,0 +1,75 @@
+{
+  "full_name": "Gérard SERVEUR",
+  "email": "votre.nom.prenom@gnail.com",
+  "phone": "+336 01 02 03 04",
+  "location": "Marseille, France",
+  "professional_summary": "Serveur expérimenté, je possède 6 années d'expérience dans le domaine du service en salle et du bar. J'ai travaillé en tant que serveur dans divers cafés et restaurants, ce qui m'a aidé à améliorer mon efficacité durant le service et à anticiper et de répondre au mieux aux demandes des clients.",
+  "skills": [
+    "Traitement des commandes rapide",
+    "Habilité à servir de l'alcool",
+    "Gestion des stocks et du réassort"
+  ],
+  "experience": [
+    {
+      "job_title": "Serveur au bar-restaurant",
+      "company": "Café du Commerce, Paris",
+      "duration": "04/2019-Aujourd'hui",
+      "responsibilities": [
+        "Service en salle",
+        "Préparation des tables",
+        "Présentation des menus",
+        "Conseils pour le choix des plats et des boissons",
+        "Préparation de cocktails et autres boissons alcoolisées",
+        "Encaissement des règlements des clients"
+      ]
+    },
+    {
+      "job_title": "Serveur",
+      "company": "Brasserie des Fleurs, Paris",
+      "duration": "01/2015-04/2019",
+      "responsibilities": [
+        "Service en salle",
+        "Préparation des tables",
+        "Traitement des commandes",
+        "Encaissement des règlements des clients"
+      ]
+    },
+    {
+      "job_title": "Serveur",
+      "company": "La Belle Vie, Paris",
+      "duration": "02/2014-12/2014",
+      "responsibilities": [
+        "Service en salle",
+        "Préparation des tables",
+        "Présentation des plats",
+        "Traitement des commandes",
+        "Aide à la préparation des desserts"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Certificat d'Aptitudes Professionnelles - Restaurant",
+      "institution": "Lycée Saint-Jacques - Paris",
+      "graduation_year": "2013",
+      "field": null
+    },
+    {
+      "degree": "Baccalauréat professionnel",
+      "institution": "Lycée hôtelier Voltaire, Paris",
+      "graduation_year": "2011",
+      "field": "hôtellerie-restauration"
+    },
+    {
+      "degree": "Brevet des collèges obtenu avec mention assez bien",
+      "institution": "Collège Saint-Dominique, Paris",
+      "graduation_year": "2008",
+      "field": null
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Anglais",
+    "Espagnol"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "full_name": "RABII SALAH EDDINE",
+  "email": "salahrabii454@gmail.com",
+  "phone": "+212651712950",
+  "location": "Casablanca",
+  "professional_summary": "Étudiant marocain motivé et passionné par la science des données et l'informatique et Al development. Curieux et avide d'apprentissage, j'aime explorer des domaines tels que la reconnaissance de modèles, l'analyse de données et le développement informatique. Toujours en quête de nouveaux défis, je cherche à renforcer mes compétences et à mettre en pratique mes connaissances dans des projets concrets.",
+  "skills": [
+    "HTML",
+    "CSS",
+    "BOOTSTRAP",
+    "JAVASCRIPT",
+    "PYTHON",
+    "PHP",
+    "REACT JS",
+    "FRAMER MOTION",
+    "WORDPRESS",
+    "C",
+    "EXCEL",
+    "GIT",
+    "GITHUB",
+    "POWER BI",
+    "TALEND",
+    "JAVA",
+    "JEE",
+    "UML",
+    "SQL",
+    "MATLAB",
+    "POSTMAN"
+  ],
+  "experience": [
+    {
+      "job_title": "Stage de fin d'études (PFE)",
+      "company": "IA Performance",
+      "duration": null,
+      "responsibilities": [
+        "Développement d'une application web et mobile pour la gestion et le comptage des objets en temps réel.",
+        "Utilisation de CakePHP pour le backend (API REST), et React Native pour l'interface mobile.",
+        "Intégration d'un module de traitement d'image pour détecter et compter les objets automatiquement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Licence",
+      "institution": "Faculté des Sciences et Techniques Mohammedia (FSTM)",
+      "graduation_year": "2025",
+      "field": "sciences et technique, Mathématiques, sciences des données et informatique"
+    },
+    {
+      "degree": "Diplôme d'études universitaires scientifiques et techniques (DEUST)",
+      "institution": "Faculté des Sciences et Techniques Mohammedia (FSTM)",
+      "graduation_year": "2023",
+      "field": "Mathématiques et informatique"
+    },
+    {
+      "degree": "Baccalauréat",
+      "institution": "Lycée Ibn Roched Casablanca",
+      "graduation_year": "2021",
+      "field": "Sciences physiques"
+    }
+  ],
+  "certifications": [
+    "Udemy Learn JavaScript - For Beginners",
+    "Java SE 17 Developer en progress",
+    "IBM Python for data science, Al & Development",
+    "HackerRank SQL intermediate"
+  ],
+  "languages": [
+    "Arabe",
+    "Anglais",
+    "Français"
+  ]
+}
